@@ -91,6 +91,17 @@ background: #f8d1f8;
             transform: scale(1.1);
             transition: transform 0.3s ease-in-out;
         }
+@media (max-width: 768px) {
+            .tranding-slide-img img {
+                width: 80%; 
+                height: auto; 
+            }
+        
+            .tranding-slide-content {
+                margin-right: 1rem; 
+            }
+        }
+
         
         
         
